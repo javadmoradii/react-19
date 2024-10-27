@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import fetchPosts from "./utils/fetch-data.js";
+import fetchPosts from "../utils/fetch-data.js";
 
 const UserPrev = () => {
     const [users, setUsers] = useState([])

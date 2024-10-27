@@ -1,5 +1,5 @@
-import Users from "./Users.jsx";
-import UserPrev from "./User_prev.jsx";
+import Users from "./components/Users.jsx";
+import UserPrev from "./components/User_prev.jsx";
 
 const Use = () => <>
     <h1>

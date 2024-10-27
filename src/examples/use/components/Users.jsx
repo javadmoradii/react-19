@@ -1,5 +1,5 @@
 import {use} from "react";
-import fetchPosts from "./utils/fetch-data.js";
+import fetchPosts from "../utils/fetch-data.js";
 
 const PostItems = () => {
     const users = use(fetchPosts());
