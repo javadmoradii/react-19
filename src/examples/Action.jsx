@@ -8,15 +8,15 @@ const submitData = async (userData) => {
 
 const Action = () => {
     return <>
-    <h3>action example</h3>
-    <form action={submitData}>
-        <div>
+    <h3 className='mb-2'>Action example</h3>
+    <form action={submitData} className='flex flex-col gap-2'>
+        <div className='flex justify-between'>
             <label>User Name</label>
-            <input type="text" name='username'/>
+            <input className='ms-2 border p-1' type="text" name="username" id="username" placeholder='Enter username'/>
         </div>
-        <div>
+        <div className='flex justify-between'>
             <label>Email</label>
-            <input type="text" name="email" />
+            <input className='ms-2 border p-1' type="text" name="email" id="email" placeholder='Enter email'/>
         </div>
         <button type='submit'>Submit</button>
     </form>
